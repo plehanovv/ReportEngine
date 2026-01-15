@@ -9,6 +9,9 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.2" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -18,7 +21,8 @@
       <Folder Include="Contracts\" />
       <Folder Include="Controllers\" />
       <Folder Include="Domain\Enums\" />
-      <Folder Include="Infrastructure\" />
+      <Folder Include="Infrastructure\Persistence\Configurations\" />
+      <Folder Include="Infrastructure\Persistence\Migrations\" />
     </ItemGroup>
 
 </Project>
