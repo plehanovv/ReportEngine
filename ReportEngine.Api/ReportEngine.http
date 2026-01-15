@@ -1,0 +1,6 @@
+@ReportEngine_HostAddress = http://localhost:5278
+
+GET {{ReportEngine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
